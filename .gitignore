@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Virtual environment
+asl_env/
+
+# Dataset (too large for git)
+static/dataset/
+dynamic/dataset/
+
+# Trained models
+*.h5
+*.keras
+
+# Python cache
+__pycache__/
+*.pyc
