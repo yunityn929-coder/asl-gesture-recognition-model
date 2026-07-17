@@ -224,10 +224,16 @@ asl_env/
 static/dataset/
 dynamic/dataset/
 
-# Trained models
-*.h5
-*.keras
-
 # Python cache
 __pycache__/
 *.pyc
+
+# Raw and cleaned datasets (too large, regenerate with preprocessing.py)
+static/raw_dataset/
+static/X_clean.npy
+static/y_clean.npy
+static/hand_landmarker.task
+
+# Keep model files (needed by app)
+# mlp_model.h5 → intentionally tracked
+# label_encoder.pkl → intentionally tracked
