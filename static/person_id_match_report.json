@@ -1,0 +1,295 @@
+{
+  "total_rows": 19812,
+  "total_matched": 19812,
+  "match_rate": 1.0,
+  "per_class": {
+    "A": {
+      "rows": 331,
+      "matched": 331,
+      "unmatched": 0,
+      "lookup_size": 349,
+      "lookup_collisions": 4,
+      "seconds": 11.9
+    },
+    "B": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 793,
+      "lookup_collisions": 7,
+      "seconds": 15.2
+    },
+    "C": {
+      "rows": 296,
+      "matched": 296,
+      "unmatched": 0,
+      "lookup_size": 308,
+      "lookup_collisions": 0,
+      "seconds": 11.9
+    },
+    "D": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 795,
+      "lookup_collisions": 5,
+      "seconds": 15.6
+    },
+    "E": {
+      "rows": 556,
+      "matched": 556,
+      "unmatched": 0,
+      "lookup_size": 573,
+      "lookup_collisions": 6,
+      "seconds": 13.7
+    },
+    "F": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 800,
+      "lookup_collisions": 0,
+      "seconds": 15.5
+    },
+    "G": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 701,
+      "lookup_collisions": 11,
+      "seconds": 14.7
+    },
+    "H": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 774,
+      "lookup_collisions": 17,
+      "seconds": 15.5
+    },
+    "I": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 721,
+      "lookup_collisions": 69,
+      "seconds": 15.6
+    },
+    "J": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 766,
+      "lookup_collisions": 2,
+      "seconds": 15.8
+    },
+    "K": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 787,
+      "lookup_collisions": 13,
+      "seconds": 17.3
+    },
+    "L": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 786,
+      "lookup_collisions": 12,
+      "seconds": 16.4
+    },
+    "M": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 715,
+      "lookup_collisions": 2,
+      "seconds": 15.4
+    },
+    "N": {
+      "rows": 448,
+      "matched": 448,
+      "unmatched": 0,
+      "lookup_size": 447,
+      "lookup_collisions": 7,
+      "seconds": 13.1
+    },
+    "O": {
+      "rows": 225,
+      "matched": 225,
+      "unmatched": 0,
+      "lookup_size": 237,
+      "lookup_collisions": 2,
+      "seconds": 11.7
+    },
+    "P": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 746,
+      "lookup_collisions": 7,
+      "seconds": 16.2
+    },
+    "Q": {
+      "rows": 469,
+      "matched": 469,
+      "unmatched": 0,
+      "lookup_size": 490,
+      "lookup_collisions": 1,
+      "seconds": 13.7
+    },
+    "R": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 786,
+      "lookup_collisions": 14,
+      "seconds": 16.5
+    },
+    "S": {
+      "rows": 526,
+      "matched": 526,
+      "unmatched": 0,
+      "lookup_size": 545,
+      "lookup_collisions": 0,
+      "seconds": 15.3
+    },
+    "T": {
+      "rows": 319,
+      "matched": 319,
+      "unmatched": 0,
+      "lookup_size": 338,
+      "lookup_collisions": 0,
+      "seconds": 12.8
+    },
+    "U": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 795,
+      "lookup_collisions": 4,
+      "seconds": 17.0
+    },
+    "V": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 730,
+      "lookup_collisions": 70,
+      "seconds": 17.1
+    },
+    "W": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 797,
+      "lookup_collisions": 3,
+      "seconds": 16.8
+    },
+    "X": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 602,
+      "lookup_collisions": 11,
+      "seconds": 15.5
+    },
+    "Y": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 691,
+      "lookup_collisions": 13,
+      "seconds": 16.2
+    },
+    "Z": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 791,
+      "lookup_collisions": 3,
+      "seconds": 16.9
+    },
+    "0": {
+      "rows": 442,
+      "matched": 442,
+      "unmatched": 0,
+      "lookup_size": 459,
+      "lookup_collisions": 5,
+      "seconds": 14.7
+    },
+    "1": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 778,
+      "lookup_collisions": 5,
+      "seconds": 17.0
+    },
+    "2": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 794,
+      "lookup_collisions": 6,
+      "seconds": 17.2
+    },
+    "3": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 800,
+      "lookup_collisions": 0,
+      "seconds": 16.7
+    },
+    "4": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 799,
+      "lookup_collisions": 1,
+      "seconds": 16.9
+    },
+    "5": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 774,
+      "lookup_collisions": 26,
+      "seconds": 16.8
+    },
+    "6": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 795,
+      "lookup_collisions": 5,
+      "seconds": 17.7
+    },
+    "7": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 797,
+      "lookup_collisions": 3,
+      "seconds": 18.3
+    },
+    "8": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 791,
+      "lookup_collisions": 6,
+      "seconds": 16.8
+    },
+    "9": {
+      "rows": 600,
+      "matched": 600,
+      "unmatched": 0,
+      "lookup_size": 783,
+      "lookup_collisions": 17,
+      "seconds": 16.8
+    }
+  }
+}

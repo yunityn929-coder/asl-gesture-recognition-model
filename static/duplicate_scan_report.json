@@ -1,0 +1,253 @@
+{
+  "per_class": {
+    "A": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "B": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "C": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "D": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "E": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "F": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "G": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "H": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "I": {
+      "cross_person_duplicate_groups": 67,
+      "examples": [
+        {
+          "files": [
+            "P5_I_401.jpg",
+            "P6_I_501.jpg"
+          ],
+          "persons": [
+            "5",
+            "6"
+          ]
+        },
+        {
+          "files": [
+            "P5_I_403.jpg",
+            "P6_I_503.jpg"
+          ],
+          "persons": [
+            "5",
+            "6"
+          ]
+        },
+        {
+          "files": [
+            "P5_I_404.jpg",
+            "P6_I_504.jpg"
+          ],
+          "persons": [
+            "5",
+            "6"
+          ]
+        },
+        {
+          "files": [
+            "P5_I_407.jpg",
+            "P6_I_507.jpg"
+          ],
+          "persons": [
+            "5",
+            "6"
+          ]
+        },
+        {
+          "files": [
+            "P5_I_408.jpg",
+            "P6_I_508.jpg"
+          ],
+          "persons": [
+            "5",
+            "6"
+          ]
+        }
+      ]
+    },
+    "J": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "K": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "L": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "M": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "N": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "O": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "P": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "Q": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "R": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "S": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "T": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "U": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "V": {
+      "cross_person_duplicate_groups": 64,
+      "examples": [
+        {
+          "files": [
+            "P5_V_403.jpg",
+            "P6_V_503.jpg"
+          ],
+          "persons": [
+            "5",
+            "6"
+          ]
+        },
+        {
+          "files": [
+            "P5_V_407.jpg",
+            "P6_V_507.jpg"
+          ],
+          "persons": [
+            "5",
+            "6"
+          ]
+        },
+        {
+          "files": [
+            "P5_V_408.jpg",
+            "P6_V_508.jpg"
+          ],
+          "persons": [
+            "5",
+            "6"
+          ]
+        },
+        {
+          "files": [
+            "P5_V_410.jpg",
+            "P6_V_510.jpg"
+          ],
+          "persons": [
+            "5",
+            "6"
+          ]
+        },
+        {
+          "files": [
+            "P5_V_413.jpg",
+            "P6_V_513.jpg"
+          ],
+          "persons": [
+            "5",
+            "6"
+          ]
+        }
+      ]
+    },
+    "W": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "X": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "Y": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "Z": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "0": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "1": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "2": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "3": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "4": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "5": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "6": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "7": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "8": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    },
+    "9": {
+      "cross_person_duplicate_groups": 0,
+      "examples": []
+    }
+  },
+  "pair_summary": {
+    "P5-P6": 131
+  }
+}
