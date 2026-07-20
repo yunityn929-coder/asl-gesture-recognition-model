@@ -1,0 +1,133 @@
+{
+  "total_saved": 1718,
+  "total_rejected": 344,
+  "verified_classes": [
+    "0",
+    "1",
+    "2",
+    "4",
+    "5"
+  ],
+  "mismatched_classes": [
+    "3",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "mismatch_reason": "ardamavi's 3/6/7/8/9 use a plain sequential finger-count handshape (e.g. 3 = index+middle+ring, no thumb) that visually conflicts with our ASL-HG dataset's real ASL numeral handshapes for the same digits (3 = thumb+index+middle; 6-9 = thumb touching a specific fingertip). Only 0/1/2/4/5 matched on manual spot-check and are used in training.",
+  "rows_usable_for_training": 828,
+  "rows_excluded_mismatched": 890,
+  "per_class": {
+    "0": {
+      "saved": 151,
+      "rejected": 54,
+      "rate": 73.65853658536585,
+      "reasons": {
+        "no_hand": 54,
+        "bad_scale": 0,
+        "unreadable": 0
+      },
+      "handshape_verified": true
+    },
+    "1": {
+      "saved": 157,
+      "rejected": 49,
+      "rate": 76.2135922330097,
+      "reasons": {
+        "no_hand": 49,
+        "bad_scale": 0,
+        "unreadable": 0
+      },
+      "handshape_verified": true
+    },
+    "2": {
+      "saved": 133,
+      "rejected": 73,
+      "rate": 64.56310679611651,
+      "reasons": {
+        "no_hand": 73,
+        "bad_scale": 0,
+        "unreadable": 0
+      },
+      "handshape_verified": true
+    },
+    "3": {
+      "saved": 198,
+      "rejected": 8,
+      "rate": 96.11650485436894,
+      "reasons": {
+        "no_hand": 8,
+        "bad_scale": 0,
+        "unreadable": 0
+      },
+      "handshape_verified": false
+    },
+    "4": {
+      "saved": 180,
+      "rejected": 27,
+      "rate": 86.95652173913044,
+      "reasons": {
+        "no_hand": 27,
+        "bad_scale": 0,
+        "unreadable": 0
+      },
+      "handshape_verified": true
+    },
+    "5": {
+      "saved": 207,
+      "rejected": 0,
+      "rate": 100.0,
+      "reasons": {
+        "no_hand": 0,
+        "bad_scale": 0,
+        "unreadable": 0
+      },
+      "handshape_verified": true
+    },
+    "6": {
+      "saved": 157,
+      "rejected": 50,
+      "rate": 75.84541062801932,
+      "reasons": {
+        "no_hand": 50,
+        "bad_scale": 0,
+        "unreadable": 0
+      },
+      "handshape_verified": false
+    },
+    "7": {
+      "saved": 159,
+      "rejected": 47,
+      "rate": 77.18446601941747,
+      "reasons": {
+        "no_hand": 47,
+        "bad_scale": 0,
+        "unreadable": 0
+      },
+      "handshape_verified": false
+    },
+    "8": {
+      "saved": 173,
+      "rejected": 35,
+      "rate": 83.17307692307693,
+      "reasons": {
+        "no_hand": 35,
+        "bad_scale": 0,
+        "unreadable": 0
+      },
+      "handshape_verified": false
+    },
+    "9": {
+      "saved": 203,
+      "rejected": 1,
+      "rate": 99.50980392156863,
+      "reasons": {
+        "no_hand": 1,
+        "bad_scale": 0,
+        "unreadable": 0
+      },
+      "handshape_verified": false
+    }
+  }
+}

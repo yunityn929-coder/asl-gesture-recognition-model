@@ -60,3 +60,46 @@ the original diagnostic, not because it's still required for safety.
 - `static/landmark_features.py` — augmentation (rotation/scale/noise) + engineered features (finger curl angles, fingertip-palm distances).
 - `static/train_ablation.py` — the training script all of the above numbers came from (`--held-out`, `--variant`, `--augment`, `--final` flags).
 - `static/model/mlp_model_v2_candidate.h5` / `.tflite` — candidate retrain on all 10 persons' deduplicated data. **Not yet promoted to production** — swapping `mlp_model.tflite` is a separate, deliberate step.
+
+## v3 experiment: camera-degradation augmentation + external digit dataset (still not promoted)
+
+Two additive data experiments, both evaluated with `static/train_combined.py`
+(group-disjoint CV: each ASL-HG person as its own fold, plus a 6th fold that
+holds out an entire external dataset):
+
+- **Camera degradation (Task A)**: `static/degrade_and_extract_taskA.py`
+  re-encodes every raw training image through mild Gaussian blur + noise +
+  JPEG q85 (matching the app's `YuvImage.compressToJpeg` step), re-extracts
+  landmarks, tagged `source=degraded` alongside the original `source=clean`
+  rows (see `X_degraded.npy`/`y_degraded.npy`/`person_ids_degraded.npy`).
+  **Result: training on clean+degraded together produces validation accuracy
+  that's essentially identical whether the validation sample is clean or
+  degraded** (e.g. fold P7+P8: 81.0% clean vs 82.6% degraded) — the model
+  already handles this specific, mild degradation fine. This means JPEG
+  compression + mild blur/noise is **not** the main driver of the live-camera
+  accuracy drop; the remaining domain gap is more likely camera distance,
+  angle, background, and lighting variety, none of which this experiment adds.
+- **External digit dataset (Task B)**: `static/extract_ardamavi_digits.py`
+  pulls in the Apache-2.0 ardamavi/Sign-Language-Digits-Dataset (218 people).
+  Manual handshape spot-check found only digits **0/1/2/4/5 use the same
+  handshape convention as ours**; **3/6/7/8/9 use a different plain
+  finger-count convention** (no thumb-touch) and are excluded from training
+  (see `handshape_verified_ardamavi_digits.npy`, `extract_ardamavi_report.json`).
+  Holding out this entire external source as its own CV fold (never seen in
+  training) gave only **53.1% overall accuracy** — but broken down: digits 4
+  and 5 transferred almost perfectly (99–100% recall), while 0/1/2 collapsed
+  into their well-known ASL homograph letters (**0→O, 1→D, 2→V** — real ASL
+  handshape ambiguities, not a labeling bug), showing the model doesn't yet
+  disambiguate these under a camera/framing shift it's never seen.
+- **Combined effect on the existing 5 person-pair folds**: 88.45% ± 2.71pp
+  (vs the original 87.44% ± 4.54pp clean-only baseline) — noticeably lower
+  fold-to-fold variance, but **not a uniform per-class win**: O improved
+  (49.2% → 57.2% recall, still noisy across folds), but T regressed hard
+  (86.7% → 45.8%), and C/M/Q/V/Z also regressed. See
+  `static/model/summary_taskA_degraded_only_*.json`,
+  `static/model/summary_taskAB_combined_*.json`.
+- Candidate files: `static/model/mlp_model_v3_candidate.h5`/`.tflite` +
+  `label_encoder_v3_candidate.pkl` — trained on ALL clean+degraded+verified-
+  ardamavi rows. **Not promoted to production or over v2_candidate** — this
+  is a mixed result, not a clear win, and needs a call on whether the O/0
+  improvement is worth the T/C/Q/V/Z regression before going further.

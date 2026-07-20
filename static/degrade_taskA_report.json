@@ -1,0 +1,425 @@
+{
+  "total_source_images": 28668,
+  "total_saved": 22241,
+  "total_rejected": 6427,
+  "overall_rate": 77.58127528952143,
+  "blur_sigma_range": [
+    0.4,
+    1.0
+  ],
+  "noise_sigma_range": [
+    3.0,
+    8.0
+  ],
+  "jpeg_quality": 85,
+  "per_class": {
+    "A": {
+      "saved": 215,
+      "rejected": 585,
+      "rate": 26.875,
+      "reasons": {
+        "no_hand": 585,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "B": {
+      "saved": 797,
+      "rejected": 3,
+      "rate": 99.625,
+      "reasons": {
+        "no_hand": 3,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "C": {
+      "saved": 344,
+      "rejected": 456,
+      "rate": 43.0,
+      "reasons": {
+        "no_hand": 456,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "D": {
+      "saved": 797,
+      "rejected": 3,
+      "rate": 99.625,
+      "reasons": {
+        "no_hand": 3,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "E": {
+      "saved": 425,
+      "rejected": 375,
+      "rate": 53.125,
+      "reasons": {
+        "no_hand": 375,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "F": {
+      "saved": 796,
+      "rejected": 4,
+      "rate": 99.5,
+      "reasons": {
+        "no_hand": 4,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "G": {
+      "saved": 600,
+      "rejected": 200,
+      "rate": 75.0,
+      "reasons": {
+        "no_hand": 200,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "H": {
+      "saved": 773,
+      "rejected": 27,
+      "rate": 96.625,
+      "reasons": {
+        "no_hand": 27,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "I": {
+      "saved": 583,
+      "rejected": 149,
+      "rate": 79.6448087431694,
+      "reasons": {
+        "no_hand": 149,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "J": {
+      "saved": 633,
+      "rejected": 167,
+      "rate": 79.125,
+      "reasons": {
+        "no_hand": 167,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "K": {
+      "saved": 760,
+      "rejected": 40,
+      "rate": 95.0,
+      "reasons": {
+        "no_hand": 40,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "L": {
+      "saved": 778,
+      "rejected": 22,
+      "rate": 97.25,
+      "reasons": {
+        "no_hand": 22,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "M": {
+      "saved": 305,
+      "rejected": 495,
+      "rate": 38.125,
+      "reasons": {
+        "no_hand": 495,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "N": {
+      "saved": 229,
+      "rejected": 571,
+      "rate": 28.625,
+      "reasons": {
+        "no_hand": 571,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "O": {
+      "saved": 206,
+      "rejected": 594,
+      "rate": 25.75,
+      "reasons": {
+        "no_hand": 594,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "P": {
+      "saved": 703,
+      "rejected": 97,
+      "rate": 87.875,
+      "reasons": {
+        "no_hand": 97,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "Q": {
+      "saved": 362,
+      "rejected": 438,
+      "rate": 45.25,
+      "reasons": {
+        "no_hand": 438,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "R": {
+      "saved": 770,
+      "rejected": 30,
+      "rate": 96.25,
+      "reasons": {
+        "no_hand": 30,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "S": {
+      "saved": 300,
+      "rejected": 500,
+      "rate": 37.5,
+      "reasons": {
+        "no_hand": 500,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "T": {
+      "saved": 244,
+      "rejected": 556,
+      "rate": 30.5,
+      "reasons": {
+        "no_hand": 556,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "U": {
+      "saved": 795,
+      "rejected": 5,
+      "rate": 99.375,
+      "reasons": {
+        "no_hand": 5,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "V": {
+      "saved": 734,
+      "rejected": 2,
+      "rate": 99.72826086956522,
+      "reasons": {
+        "no_hand": 2,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "W": {
+      "saved": 800,
+      "rejected": 0,
+      "rate": 100.0,
+      "reasons": {
+        "no_hand": 0,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "X": {
+      "saved": 465,
+      "rejected": 335,
+      "rate": 58.12500000000001,
+      "reasons": {
+        "no_hand": 335,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "Y": {
+      "saved": 644,
+      "rejected": 156,
+      "rate": 80.5,
+      "reasons": {
+        "no_hand": 156,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "Z": {
+      "saved": 688,
+      "rejected": 112,
+      "rate": 86.0,
+      "reasons": {
+        "no_hand": 112,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "0": {
+      "saved": 346,
+      "rejected": 454,
+      "rate": 43.25,
+      "reasons": {
+        "no_hand": 454,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "1": {
+      "saved": 753,
+      "rejected": 47,
+      "rate": 94.125,
+      "reasons": {
+        "no_hand": 47,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "2": {
+      "saved": 799,
+      "rejected": 1,
+      "rate": 99.875,
+      "reasons": {
+        "no_hand": 1,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "3": {
+      "saved": 800,
+      "rejected": 0,
+      "rate": 100.0,
+      "reasons": {
+        "no_hand": 0,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "4": {
+      "saved": 800,
+      "rejected": 0,
+      "rate": 100.0,
+      "reasons": {
+        "no_hand": 0,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "5": {
+      "saved": 800,
+      "rejected": 0,
+      "rate": 100.0,
+      "reasons": {
+        "no_hand": 0,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "6": {
+      "saved": 800,
+      "rejected": 0,
+      "rate": 100.0,
+      "reasons": {
+        "no_hand": 0,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "7": {
+      "saved": 800,
+      "rejected": 0,
+      "rate": 100.0,
+      "reasons": {
+        "no_hand": 0,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "8": {
+      "saved": 797,
+      "rejected": 3,
+      "rate": 99.625,
+      "reasons": {
+        "no_hand": 3,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    },
+    "9": {
+      "saved": 800,
+      "rejected": 0,
+      "rate": 100.0,
+      "reasons": {
+        "no_hand": 0,
+        "bad_scale": 0,
+        "unreadable": 0,
+        "encode_fail": 0
+      }
+    }
+  },
+  "output_shapes": {
+    "X_degraded": [
+      22241,
+      63
+    ],
+    "y_degraded": [
+      22241
+    ],
+    "person_ids_degraded": [
+      22241
+    ]
+  }
+}
